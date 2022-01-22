@@ -1,0 +1,39 @@
+#main {
+    height: 100vh;
+    overflow: hidden;
+    > .index {
+        background-color: #111;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        transition-duration: 0.3s;
+
+        > .info-wrapper {
+            color: #111;
+            display: flex;
+            align-items: center;
+            justify-content: center;            
+            transition-duration: 0.3s;
+            flex-grow: 1;
+            > button {
+                all: unset;
+                margin: 0 1rem;
+                padding: 0.5rem;
+                cursor: pointer;
+            }
+            > div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 30vw;
+
+                > h2 {
+                    font-size: 4.0rem;
+                }
+            }
+        }
+        > canvas {
+
+        }
+    }
+}
